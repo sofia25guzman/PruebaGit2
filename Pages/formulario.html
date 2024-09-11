@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../img/HTML5_logo.png" alt="logo html">
+        </div>
+        <h1>
+            Formulario 💻⬆️
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Index</a>
+                </li>
+                <li>
+                    <a href="./multimedia.html">Multimedia</a>
+                    <ol>
+                        <li>imágenes</li>
+                        <li>audio</li>
+                        <li>video</li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="./tablas.html">Tablas</a>
+                </li>
+                <li>
+                    <a href="./formulario.html">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2>Formulario</h2>
+        <form action=""> 
+            <div>
+                <label for="Name">Escribe tu nombre</label>
+                <input type="text" name="name" placeholder="Juan Perez">                              
+            </div>
+            <br>
+            <div>
+                <label for="Surname">Escribe tu apellido</label>
+                <input type="text" name="surname" placeholder="Gonzalez">                              
+            </div>
+            <br>
+            <div>
+                <label for="Email">Escribe tu Email</label>
+                <input type="email" name="email" required>                             
+            </div>
+            <br>
+            <div>
+                <label for="password">Escribe tu password</label>
+                <input type="password" name="password" >                              
+            </div>
+            <br>
+            <div>
+                <label for="pais">
+                    selecciona tu pais
+                                    
+                </label>
+                <select name="pais" id="">
+                    <option value=""></option>
+                    <option value="arg">Argentina</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="chi">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="genero">elige tu genero</label>
+                <input type="radio" name="genero" value="Mujer">Mujer
+                <input type="radio" name="genero" value="Hombre">Hombre
+                <input type="radio" name="genero" value="No binario">No binario
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Escribe tus comentarios</label>
+            </div>
+            <textarea name="comentarios" id=""placeholder="Escribe aquí"cols=30 rows="10"></textarea>
+            <br>
+            <div>
+                <input type="checkbox" name="terminos" required>Acepto los términos y condiciones <!--poner aqui el link de los terminos-->
+            </div>
+            <br>
+            <div>
+                <label for="birth">elige tu fecha de nacimiento
+                </label>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="enviar datos">
+                <input type="reset" value="borrar campo">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
